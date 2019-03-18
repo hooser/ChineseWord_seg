@@ -13,8 +13,10 @@ CRF工具包：CRF++0.58 (windows)   评测数据：backoff2005
 (![ooops](https://github.com/hooser/ChineseWord_seg/blob/master/pictures/p1.png)
 
 3.2 训练集的准备
-CRF++需要下图所示的训练集合形式，故应该将原语料库按4-tag(B,E,S,M)方式标注词，得到最终的训练所需的熟语料。
+CRF++需要下图所示的训练集合形式，故应该将原语料库按4-tag(B,E,S,M)方式标注词，
+得到最终的训练所需的熟语料。
 处理函数如下：
+
 ![ooops](https://github.com/hooser/ChineseWord_seg/blob/master/pictures/p2.png)
 
 得到的处理结果如下：
